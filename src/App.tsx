@@ -115,7 +115,7 @@ function App() {
   }
 
   return (
-    <div className="h-screen bg-white dark:bg-dark-backgroundBody flex flex-col m-auto justify-center items-center  w-screen px-60">
+    <div className="h-screen bg-white dark:bg-dark-backgroundBody flex flex-col m-auto justify-center items-center  w-screen px-0 lg:px-40 2xl:px-60 ">
       {showInstructor && <ModalInstructions onClose={closeModal} />}
       {showStatistics && (
         <ModalStatistics
