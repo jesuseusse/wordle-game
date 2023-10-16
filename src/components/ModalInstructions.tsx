@@ -1,5 +1,4 @@
 import { Modal } from '../ui/Modal'
-import { LetterBtn } from '../ui/LetterBtn'
 
 export const ModalInstructions = ({ onClose }: { onClose: () => void }) => {
   return (
